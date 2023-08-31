@@ -182,6 +182,7 @@ span {
 
 .about-content {
     margin-left: 8rem;
+    padding-bottom: 5rem;
 }
 
 .heading {
@@ -191,6 +192,7 @@ span {
 
 .about-content h2 {
     text-align: left;
+    padding-bottom: 5rem;
     line-height: 1.2;
 }
 
