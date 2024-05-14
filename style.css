@@ -212,11 +212,12 @@ span {
 }
 
 .services-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+
+  gap: 5rem;
 }
 
 .services-container .services-box {
