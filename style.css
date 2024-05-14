@@ -216,7 +216,6 @@ span {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-
   gap: 5rem;
 }
 
@@ -235,8 +234,17 @@ span {
   transform: scale(1.02);
 }
 
+.services-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  margin-bottom: 3rem;
+}
+
 .services-box i {
-  font-size: 7rem;
+  font-size: 3rem;
   color: var(--main-color);
 }
 
@@ -246,7 +254,9 @@ span {
 
 .services-box p {
   font-size: 1.6rem;
-  margin: 1rem 0 3rem;
+  display: flex;
+  justify-content: left;
+  column-gap: 1rem;
 }
 
 .portfolio {
@@ -435,6 +445,10 @@ span {
 }
 
 @media (max-width: 768px) {
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
   #menu-icon {
     display: block;
   }
