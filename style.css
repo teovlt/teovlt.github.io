@@ -82,7 +82,27 @@ section {
 }
 
 .home-img img {
-  width: 25vw;
+  width: 25 <h2 class="heading">Projets <span>scolaires</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="documents/paperlive.png" alt="" />
+      <div class="portfolio-layer">
+        <h4>PaperLive</h4>
+        <p>
+          PaperLive est une application web de suivi de cycle de vie pour les contributions scientifiques des chercheurs. Ce projet a
+          été graçe aux technologies MERN (MongoDB, Express, React, NodeJS)
+        </p>
+        <p>
+          Compte pour tester : <br />
+          Login : teo, Mot de passe : P@ssw0rd
+        </p>
+        <a href="http://demo.paperlive.gabrielhalus.com/" target="_blank">
+          <i class="bx bx-link-external"></i>
+        </a>
+      </div>
+    </div>
+  </div>vw;
   height: 25vw;
   object-fit: cover;
   box-shadow: 0 0 3rem var(--main-color);
@@ -567,4 +587,12 @@ span {
   .btn {
     color: red;
   }
+}
+
+
+
+.heading2{
+  text-align: center;
+  font-size: 4.5rem;
+  padding-top: 4rem;
 }
